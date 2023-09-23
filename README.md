@@ -1,0 +1,2 @@
+# landingpage
+Skeleton mahjong page
