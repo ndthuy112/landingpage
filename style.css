@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+  padding: 8px;
+}
+
+.header-list {
+  display: flex;
+  width: 300px;
+}
+
+.hero {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.hero-introduction {
+  font-size: 18px;
+  padding: 8px;
+}
+
+.content-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-title {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.menu-list {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.menu-box {
+  text-align: center;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.quote {
+  padding-left: 500px;
+}
+
+.author {
+  font-weight: 700;
+  text-align: right;
+  padding-right: 600px;
+  padding-bottom: 8px;
+}
+
+.sign-up-box {
+  margin: 20px auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+  padding: 50px;
+}
+
+.message-title {
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+  width: 200px;
+  text-align: center;
+}
+
+.quote-box li {
+  text-align: left;
+  list-style-type: none;
+  padding: 2px;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 8px;
+}
